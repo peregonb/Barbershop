@@ -1,0 +1,13 @@
+.barb {
+    font-size: 16pt;
+    font-weight: 400;
+    font-family: "Open Sans";
+    color: white;
+    display: block;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    line-height: 24pt;
+    position: absolute;
+}
+

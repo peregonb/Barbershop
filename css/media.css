@@ -1,0 +1,320 @@
+@media only screen and (min-width: 200px) {
+    .brand-desktop {
+        display: none !important;
+    }
+    #nav {
+        display: none;
+    }
+    .burger {
+        display: inline-block;
+        position: absolute;
+        float: right;
+        right: 7vw;
+        top: 24px;
+    }
+    #navbar-primary .navbar-nav {
+        top: 30pt;
+    }
+    .social {
+        display: none;
+    }
+    .mih1 {
+        text-align: center;
+    }
+    .mih2 {
+        text-align: center;
+    }
+    .mih3 {
+        text-align: center;
+    }
+    .mih3:first-child {
+        margin-top: 30pt;
+    }
+    .mih2:first-child {
+        margin-top: 30pt;
+    }
+    .sponsors {
+        height: calc(200px + 60pt);
+        background-color: black;
+    }
+    .sponsor_img3 {
+        margin-top: 15pt;
+    }
+    .sponsor_img4 {
+        margin-top: 15pt;
+    }
+    .about_text2 {
+        padding-top: 0;
+    }
+}
+
+@media only screen and (min-width: 320px) {
+    .brand-desktop {
+        display: none !important;
+    }
+    .links {
+        display: block !important;
+    }
+    #nav {
+        display: none;
+    }
+    .burger {
+        display: inline-block;
+        position: absolute;
+        float: right;
+        right: 7vw;
+        top: 24px;
+    }
+    #navbar-primary .navbar-nav {
+        top: 30pt;
+    }
+    .social {
+        display: none;
+    }
+    .mih1 {
+        text-align: center;
+    }
+    .mih2 {
+        text-align: center;
+    }
+    .mih3 {
+        text-align: center;
+    }
+    .mih3:first-child {
+        margin-top: 15pt;
+    }
+    .mih2:first-child {
+        margin-top: 15pt;
+    }
+    .sponsors {
+        height: calc(200px + 60pt);
+        background-color: black;
+    }
+    .sponsor_img3 {
+        margin-top: 15pt;
+    }
+    .sponsor_img4 {
+        margin-top: 15pt;
+    }
+    .about_text2 {
+        padding-top: 0;
+    }
+}
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width: 480px) {
+    .brand-desktop {
+        display: none !important;
+    }
+    .links {
+        display: block !important;
+    }
+    #nav {
+        display: none;
+    }
+    .burger {
+        display: inline-block;
+        position: absolute;
+        float: right;
+        right: 7vw;
+        top: 24px;
+    }
+    #navbar-primary .navbar-nav {
+        top: 30pt;
+    }
+    .social {
+        display: inline;
+    }
+    .mih1 {
+        text-align: center;
+    }
+    .mih2 {
+        text-align: center;
+    }
+    .mih3 {
+        text-align: center;
+    }
+    .mih3:first-child {
+        margin-top: 15pt;
+    }
+    .mih2:first-child {
+        margin-top: 15pt;
+    }
+    .sponsors {
+        height: calc(200px + 60pt);
+        background-color: black;
+    }
+    .sponsor_img3 {
+        margin-top: 15pt;
+    }
+    .sponsor_img4 {
+        margin-top: 15pt;
+    }
+    .about_text2 {
+        padding-top: 0;
+    }
+}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) {
+    .brand-desktop {
+        display: inline !important;
+    }
+    .links {
+        display: inline !important;
+    }
+    .burger {
+        display: none;
+    }
+    #nav {
+        display: inherit;
+    }
+    #navbar-primary .navbar-nav {
+        top: 0;
+    }
+    .logo_mobile {
+        display: none;
+    }
+    .social {
+        display: none;
+    }
+    .mih3:first-child {
+        margin-top: 0;
+    }
+    .mih1 {
+        text-align: center;
+    }
+    .mih3 {
+        text-align: center;
+    }
+    .mih3:first-child {
+        margin-top: 30pt;
+    }
+    .mih2:first-child {
+        margin-top: 0;
+    }
+    .sponsors {
+        height: calc(100px + 60pt);
+        background-color: black;
+    }
+    .sponsor_img3 {
+        margin-top: 0pt;
+    }
+    .sponsor_img4 {
+        margin-top: 0pt;
+    }
+    .about_text2 {
+        padding-top: 0;
+    }
+    .barbershop2 {
+        width: 100%;
+        background-color: white;
+        height: 300pt;
+    }
+}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) {
+    .mih3:first-child {
+        margin-top: 0;
+    }
+    .mih2:first-child {
+        margin-top: 0;
+    }
+    .mih1 {
+        text-align: right;
+    }
+    .mih3 {
+        text-align: left;
+    }
+    .sponsors {
+        height: calc(100px + 60pt);
+        background-color: black;
+    }
+    .sponsor_img3 {
+        margin-top: 0pt;
+    }
+    .sponsor_img4 {
+        margin-top: 0pt;
+    }
+    .about_text2 {
+        padding-top: 40pt;
+    }
+    .barbershop2 {
+        width: 100%;
+        background-color: white;
+        height: 255pt;
+    }
+}
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 1200px) {}
+
+@media only screen and (max-width: 768px) {
+    .nav {
+        display: block;
+        background-color: white;
+        width: 100%;
+        height: 170pt;
+        padding: 0px;
+        margin: 0px;
+    }
+    .collapse {
+        position: relative;
+        height: 400pt;
+        top: 27px;
+    }
+    .nav {
+        background-color: white;
+        width: calc(100% + 30px) !important;
+        height: 210pt;
+        padding: 0px;
+        top: 0px !important;
+        position: relative !important;
+        margin: 0px;
+        z-index: 101;
+    }
+    .links {
+        padding: 16pt;
+        border-bottom: 1px solid #f7f7f7;
+    }
+    .links:last-child {
+        padding: 16pt;
+        border-bottom: 1px solid white;
+        box-shadow: 0 0 0.01px #f7f7f7;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .barbershop {
+        height: 85vh;
+    }
+    .real {
+        font-size: 16pt;
+        padding-top: 24vh;
+        text-shadow: 0 0 25px #333;
+    }
+    .america {
+        font-size: 27pt;
+        font-weight: 700;
+        color: white;
+        height: auto;
+        padding-bottom: 40vh;
+        display: block;
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-shadow: 0 0 25px #333;
+    }
+    .barbershop2 {
+        height: 354pt;
+    }
+}
